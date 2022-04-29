@@ -27,10 +27,29 @@ export let Fortunes = [
   {
     fortune: "You will sleep through your next alarm"
   },
+  {
+   fortune: "Your next shower will turn cold half way through" 
+  },
+  {
+    fortune: "Your next fortune will be backwards",
+    back : true,
+    
+  },
+  {
+    fortune: "Your phone will be plugged in, but not charge"
+  },
+  {
+    fortune: "Your next flight will be delayed"
+  },
+  {
+    fortune: "Your leg will fall asleep when you try to go for a walk"
+  }
   
 ]
+let backFuture = false;
 
 cookie.addEventListener("click",function(event){
+  
   let index = Math.floor(Fortunes.length*Math.random())
   let itm = Fortunes[index];
   Fortunes.splice(index,1)
@@ -38,5 +57,15 @@ cookie.addEventListener("click",function(event){
 
   
   unfortune.textContent = itm.fortune
+  if (backFuture) {
+    unfortune.style.transform = 'rotateY(180deg)'
+    backFuture = false;
+  } else {
+    unfortune.style.transform = '';
+  }
+  if (itm.back) {
+    backFuture = true;
+  }
+  
 }
 )

@@ -38,5 +38,7 @@ font-size: 25px;
 background-image: radial-gradient(circle, #1299d3, white );  
 }
 #unfortune {
-  background-color: white
+  background-color: white;
+  color: #3b3bf7;
+  /*transform: rotateY(180deg);*/
 }
