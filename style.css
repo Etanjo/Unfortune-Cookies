@@ -40,5 +40,14 @@ background-image: radial-gradient(circle, #1299d3, white );
 #unfortune {
   background-color: white;
   color: #3b3bf7;
+  width: 300px;
+  margin: auto;
   /*transform: rotateY(180deg);*/
+}
+#footer{
+  font-style: italic;
+  color: #3c3939;
+}
+#notes{
+  text-align: right;
 }

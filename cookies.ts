@@ -43,7 +43,19 @@ export let Fortunes = [
   },
   {
     fortune: "Your leg will fall asleep when you try to go for a walk"
-  }
+  },
+  {
+    fortune: "This fortune is intentionally left blank"
+  },
+  {
+    fortune: "You will lose your pen, even though you put it in your bag"
+  },
+  {
+    fortune: "The Wifi will be slow the next time you try to download something."
+  },
+  {
+    fortune: "It will rain"
+  },
   
 ]
 let backFuture = false;
