@@ -56,6 +56,21 @@ export let Fortunes = [
   {
     fortune: "It will rain"
   },
+  {
+    fortune: "It will snow"
+  },
+  {
+    fortune: "It will thunder"
+  },
+  {
+    fortune: "Dogs will bark while you try to sleep"
+  },
+  {
+    fortune: "Gas prices will rise"
+  },
+  {
+    fortune: "The backup batteries in your clocks will not work the next time the power goes out"
+  },
   
 ]
 let backFuture = false;
